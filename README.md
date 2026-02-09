@@ -12,7 +12,7 @@ To implement it I have run the command ```npm run swizzle``` and chose CodeBlock
 1. **Clone** repository:
 
 ```bash 
-git clone https://github.com/IamAdri/adrielle.git
+https://github.com/IamAdri/docusaurus-assessment.git
 ```
 
 2. **Install** dependencies:
