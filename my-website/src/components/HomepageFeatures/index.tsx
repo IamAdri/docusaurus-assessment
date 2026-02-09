@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
@@ -36,8 +37,11 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         In case you have an amazing idea to make exploring the documentation
-        easier do not hesitate to make a pull request on github repository
-        LIIIIIINK.
+        easier do not hesitate to make a pull request on{" "}
+        <Link to="https://github.com/IamAdri/docusaurus-assessment/tree/main/my-website">
+          my github repository
+        </Link>
+        .
       </>
     ),
   },
